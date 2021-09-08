@@ -8,7 +8,7 @@ function App() {
   const [viewname,setName] = useState()
   return (
     <div className="App">
-        <h1>"hello,{viewname}"</h1>
+        <h1>"hello students,{viewname}"</h1>
         <input type={"text"} onChange={(e)=>setName(e.target.value)}/>
         <ShoppingList/>
         <Board/>
